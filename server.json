@@ -8,15 +8,5 @@
   "repository": {
     "source": "github",
     "url": "https://github.com/Shree-varshan-430/Humancraft-UI"
-  },
-  "packages": [
-    {
-      "registryType": "npm",
-      "identifier": "@aibuildinfra/humancraft",
-      "version": "1.0.0",
-      "transport": {
-        "type": "stdio"
-      }
-    }
-  ]
+  }
 }
