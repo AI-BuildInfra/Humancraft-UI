@@ -1,6 +1,7 @@
 {
   "name": "@aibuildinfra/humancraft",
   "version": "1.0.0",
+  "mcpName": "io.github.Shree-varshan-430/humancraft-ui",
   "description": "Official Google Antigravity MCP Server for eliminating AI Slop, enforcing E-E-A-T entity reconciliation, and crafting human web design. By AI Build Infra.",
   "main": "dist/index.js",
   "type": "module",
