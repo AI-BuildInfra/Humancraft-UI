@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "test": "node --test tests/**/*.test.js",
+    "test": "node --test",
     "pretest": "npm run build"
   },
   "repository": {
