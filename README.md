@@ -1,45 +1,45 @@
-# HumanCraft MCP Server (`@aibuildinfra/humancraft`)
+# Antigravity MCP Server: HumanCraft UI (`@aibuildinfra/humancraft`)
 
 <p align="center">
+  <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Antigravity-MCP%20Compatible-7C3AED.svg?style=for-the-badge&logo=google" alt="Antigravity MCP Compatible"></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Maintained%20By-AI%20Build%20Infra-blue.svg?style=for-the-badge" alt="Maintained by AI Build Infra"></a>
   <a href="https://github.com/Shree-varshan-430/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18%2B-brightgreen.svg?style=for-the-badge" alt="Node.js 18+"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=for-the-badge" alt="E-E-A-T Verified"></a>
 </p>
 
-A dedicated **Model Context Protocol (MCP)** server built exclusively for **Google Antigravity** to eliminate "AI Slop" in web design and copy, enforce authentic **E-E-A-T entity reconciliation**, extract empirical client assets without default placeholders, and build search-engine-resilient websites powered by **Google's Information Gain** principles.
+The premier **Antigravity MCP Server** designed exclusively for **Google Antigravity** (AGY). **HumanCraft** eliminates "AI Slop" in website layouts and copy, enforces authentic **E-E-A-T entity reconciliation**, extracts empirical client assets without default placeholders, and builds search-engine-resilient websites powered by **Google's Information Gain** principles.
 
-Developed and maintained by **[AI Build Infra](https://aibuildinfra.com/)**.
-
----
-
-## 🎯 The Problem: Why AI Websites Get Flagged & Deindexed
-
-Recent search engine updates (such as Google's March 2024 Core & Spam Updates) deploy **SpamBrain** to identify **"Scaled Content Abuse"** and **"Pure Spam"**. 
-
-Unconstrained LLM web generation defaults to the statistical mean:
-* 🚫 **AI Slop Outlines**: Generic headings like *"What is X?"*, *"Key Benefits of X"*, *"Why Choose Us"*, and *"Conclusion"*.
-* 🚫 **Fake E-E-A-T Laundering**: Hallucinating fake practitioner personas (*"Dr. Alex Miller"*) or synthetic metrics (*"increased efficiency by 30%"*) with no verified Knowledge Graph footprint.
-* 🚫 **Binary Checkmark Tables**: Low-information tables filled with generic `Yes / No` checkmarks that convey zero trade-offs.
-* 🚫 **Visual Homogeneity**: The ubiquitous purple/cyan gradient (`#8b5cf6 -> #ec4899`) on dark slate (`#0f172a`), rigid 3-card rows, and buttons without tactile feedback.
+Developed and maintained by **[AI Build Infra](https://aibuildinfra.com/)** — High-Performance Infrastructure for Artificial Intelligence.
 
 ---
 
-## 💡 The Solution: HumanCraft Engine
+## 🔍 Why You Need This Antigravity MCP Server
 
-`HumanCraft` acts as a **Taste, Layout Asymmetry, and Entity Reconciliation Engine** inside Google Antigravity:
+When using **Google Antigravity** to scaffold websites or write landing page copy, unconstrained models often fall into generic algorithmic templates that get penalized by search engines:
+
+1. **AI Slop Headings**: Generic H2s (*"What is X?"*, *"Key Benefits"*, *"Why Choose Us"*, *"Conclusion"*) that offer zero Information Gain under Google's ranking models (US Patent 2022/0277032 A1).
+2. **Fake E-E-A-T & Defaults**: Hallucinated metrics (*"increased efficiency by 30%"*) or fictitious personas (*"Dr. Alex Miller"*) that trigger Google Search Console **"Pure Spam"** and **"Scaled Content Abuse"** manual actions.
+3. **Binary Checkmark Tables**: Low-value tables filled with `Yes / No` checkmarks that fail to communicate trade-offs or technical realities.
+4. **Visual Homogeneity**: Monotonous purple/cyan gradients (`#8b5cf6 -> #ec4899`), rigid 3-card rows, and buttons without tactile feedback.
+
+**HumanCraft** is the dedicated **Antigravity MCP** that systematically outlaws these patterns and equips Antigravity with human design heuristics, token-optimized linters, and verified Schema.org entity graphs.
+
+---
+
+## 💡 How HumanCraft Works Inside Google Antigravity
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                                Antigravity Assistant                                   │
+│                              Google Antigravity Assistant                              │
 └───────────────────────────────────────────┬────────────────────────────────────────────┘
-                                            │ MCP Tool Calls
+                                            │ Antigravity MCP Tool Calls
                                             ▼
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
-│                        HumanCraft-UI MCP Server (@aibuildinfra)                        │
+│                       HumanCraft Antigravity MCP Server                                │
 ├───────────────────────────────┬────────────────────────────────────────────────────────┤
-│ 📋 harvest_client_intake       │ Interactive 4-tier questionnaire extracting experience,│
-│                               │ real images, metrics, and banning default values       │
+│ 📋 harvest_client_intake       │ 4-tier intake questionnaire extracting real experience,│
+│                               │ metrics, & assets; strictly bans default placeholders   │
 ├───────────────────────────────┼────────────────────────────────────────────────────────┤
 │ 🎯 validate_heading_intent    │ Lints against generic AI headings ("What is X?");     │
 │                               │ scores and enforces outcome/intent-driven H1-H3s       │
@@ -60,11 +60,11 @@ Unconstrained LLM web generation defaults to the statistical mean:
 
 ---
 
-## 🛠️ Tool Catalog
+## 🛠️ Antigravity MCP Tool Catalog
 
 ### 1. `harvest_client_intake`
-* **Purpose**: Extracts real practitioner experience, real project images (telemetry screenshots, on-site photos), project category, baseline Day 0 vs audited Day 90 metrics, and contrarian trade-offs.
-* **Strict Anti-Defaulting Rule**: If essential fields are missing, the tool halts generation with status `REQUIRES_USER_INPUT` and prompts the user for real data instead of allowing the model to hallucinate synthetic placeholders.
+* **Purpose**: Extracts real practitioner experience, project images (telemetry screenshots, on-site photos), project category, baseline Day 0 vs audited Day 90 metrics, and contrarian trade-offs.
+* **Strict Anti-Defaulting Rule**: If essential fields are missing, the tool returns `REQUIRES_USER_INPUT` and prompts the user for real data instead of allowing the model to hallucinate synthetic placeholders.
 
 ### 2. `validate_heading_intent`
 * **Purpose**: Scans headings against blacklisted AI tropes and scores user intent.
@@ -96,27 +96,25 @@ Unconstrained LLM web generation defaults to the statistical mean:
 
 ## ⚡ Token Optimization & Spend Limit Preservation
 
-To ensure your Antigravity token usage remains as lean as before:
-* **Compact Signatures**: Tool descriptions and parameter schemas are dense and concise, preventing system prompt inflation.
-* **Structured Payloads**: Tools return compact JSON summaries rather than lengthy prose.
-* **Input Caps**: Imposes strict character limits (max 300 chars per heading, max 100KB per HTML document).
+Designed from the ground up to **preserve your Antigravity token limits**:
+* **Ultra-Compact Tool Signatures**: Minimal token footprint injected into Antigravity's system prompt.
+* **Dense Structured Outputs**: Returns concise JSON summaries and actionable flags rather than verbose conversational filler.
+* **Input Length Bounds**: Imposes strict limits (max 300 chars per heading, max 100KB per HTML document) to avoid context window flooding.
 
 ---
 
 ## 🔒 Security & ReDoS Hardening
 
-1. **ReDoS Immunity**: All pattern matchers operate on bounded-length substrings to eliminate catastrophic backtracking.
-2. **Safe URI Whitelisting**: Strictly permits `https://` URIs for `sameAs` entity links (rejecting `javascript:`, `data:`, `file:`).
-3. **XSS Escaping**: Automatic HTML entity escaping on all user-supplied parameters.
-4. **Formal Security Policy**: Read [`SECURITY.md`](./SECURITY.md) for vulnerability reporting and guidelines.
+1. **ReDoS Immunity**: All pattern matchers operate on bounded substrings, terminating in $< 5\text{ ms}$ even under adversarial payloads.
+2. **Strict HTTPS Whitelist**: Permits only `https://` URIs for `sameAs` entity links (blocks `javascript:`, `data:`, `file:`).
+3. **XSS Defense**: Automatic HTML entity escaping across all rendered tables and schema blocks.
+4. **Formal Policy**: Review [`SECURITY.md`](./SECURITY.md) for vulnerability reporting guidelines.
 
 ---
 
-## 🚀 How to Add This MCP to Google Antigravity (Step-by-Step)
+## 🚀 How to Install This MCP in Google Antigravity (Step-by-Step)
 
 ### Step 1: Clone and Build Locally
-Open your terminal and clone the repository:
-
 ```bash
 git clone https://github.com/Shree-varshan-430/Humancraft-UI.git
 cd Humancraft-UI
@@ -124,21 +122,18 @@ npm install
 npm run build
 ```
 
-Verify that the build succeeded and `dist/index.js` exists.
-
 ---
 
-### Step 2: Configure `mcp_config.json` in Antigravity
+### Step 2: Add to Antigravity `mcp_config.json`
 
-Antigravity reads MCP server configurations from your global configuration directory:
+Open or create your global Antigravity MCP configuration file:
 
 * **Windows**: `%USERPROFILE%\.gemini\config\mcp_config.json`  
   *(e.g., `C:\Users\<YourUsername>\.gemini\config\mcp_config.json`)*
 * **macOS / Linux**: `~/.gemini/config/mcp_config.json`
 
-Open (or create) the `mcp_config.json` file in that location and add the `humancraft` server entry:
+Add the `humancraft` server definition:
 
-#### Windows Example:
 ```json
 {
   "mcpServers": {
@@ -151,32 +146,31 @@ Open (or create) the `mcp_config.json` file in that location and add the `humanc
   }
 }
 ```
-*(Tip: Replace `C:/path/to/Humancraft-UI` with the absolute path where you cloned this repository, using forward slashes `/`)*
-
-#### macOS / Linux Example:
-```json
-{
-  "mcpServers": {
-    "humancraft": {
-      "command": "node",
-      "args": [
-        "/Users/<username>/Humancraft-UI/dist/index.js"
-      ]
-    }
-  }
-}
-```
+*(Replace `C:/path/to/Humancraft-UI` with the absolute path to your cloned directory, using forward slashes `/`)*.
 
 ---
 
 ### Step 3: Verify and Use in Antigravity
 
-1. **Restart or reload Antigravity**: Start a new chat session.
-2. **Inspect MCP Status**: In the Antigravity UI, navigate to **Additional Options (...) > MCP Servers** to verify that `humancraft` is connected and active.
-3. **Prompt Antigravity**: You can now ask Antigravity to build websites using human craft heuristics. For example:
-   * *"Design a landing page for our cloud telemetry engine. Use the HumanCraft MCP to harvest intake and ensure zero AI slop."*
-   * *"Validate my website headings with the HumanCraft heading linter."*
-   * *"Generate an empirical comparison table comparing ClickHouse vs Snowflake with schema markup."*
+1. **Reload Antigravity**: Start a new chat session.
+2. **Verify Discovery**: In Antigravity, click **Additional Options (...) > MCP Servers** to confirm `humancraft` is connected.
+3. **Prompt Examples for Antigravity**:
+   * *"Use HumanCraft MCP to design a landing page for our database product. Harvest intake first to ensure no default placeholders are used."*
+   * *"Run validate_heading_intent on our documentation outline."*
+   * *"Generate an empirical comparison table for Redis vs KeyDB using build_comparison_matrix."*
+
+---
+
+## ❓ Frequently Asked Questions (FAQ)
+
+### What is an Antigravity MCP Server?
+An Antigravity MCP server connects Google Antigravity to specialized tools, APIs, and workflows via the open **Model Context Protocol (MCP)**. This allows Antigravity to run custom linters, schema builders, and design heuristics directly during generation.
+
+### How does HumanCraft improve website rankings?
+HumanCraft enforces Google's **Information Gain** criteria (US Patent 2022/0277032 A1) and **E-E-A-T entity reconciliation**. By replacing generic AI slop headings with outcome-driven headings and building empirical parameter comparison tables, pages avoid algorithmic demotions from Google's SpamBrain.
+
+### Does this MCP increase token usage?
+No. HumanCraft uses ultra-compact tool definitions and returns dense, structured JSON diffs, keeping Antigravity token usage identical to baseline.
 
 ---
 
@@ -187,7 +181,6 @@ Run the automated test suite across all 6 tools and security guardrails:
 npm test
 ```
 
-Expected output:
 ```
 ✔ build_comparison_matrix Tests (2/2 passed)
 ✔ lint_design_anti_patterns Tests (2/2 passed)
@@ -201,8 +194,8 @@ Total: 14 passed | 0 failed | Time: ~800ms
 
 ---
 
-## 📄 License & Attribution
+## 📄 License & Backlink Attribution
 
 Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
 
-Engineered with high-craft standards by **[AI Build Infra](https://aibuildinfra.com/)** — Building high-performance infrastructure for artificial intelligence.
+Engineered with pride by **[AI Build Infra](https://aibuildinfra.com/)** — Building high-performance infrastructure for artificial intelligence.

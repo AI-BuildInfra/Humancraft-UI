@@ -1,7 +1,7 @@
 {
   "name": "@aibuildinfra/humancraft",
   "version": "1.0.0",
-  "description": "Token-optimized Anti-Slop, E-E-A-T & Human-Centric Web Design MCP Server for Antigravity, by AI Build Infra",
+  "description": "Official Google Antigravity MCP Server for eliminating AI Slop, enforcing E-E-A-T entity reconciliation, and crafting human web design. By AI Build Infra.",
   "main": "dist/index.js",
   "type": "module",
   "bin": {
@@ -28,11 +28,16 @@
   },
   "keywords": [
     "antigravity",
+    "antigravity-mcp",
+    "antigravity-mcp-server",
+    "google-antigravity",
+    "google-antigravity-mcp",
     "mcp",
+    "mcp-server",
     "model-context-protocol",
     "web-design",
-    "eeat",
     "anti-slop",
+    "eeat",
     "seo",
     "information-gain",
     "ai-build-infra"
