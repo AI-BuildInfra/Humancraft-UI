@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Maintained%20By-AI%20Build%20Infra-blue.svg?style=for-the-badge" alt="Maintained by AI Build Infra"></a>
-  <a href="https://github.com/aibuildinfra/humancraft-mcp/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://github.com/Shree-varshan-430/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
   <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-18%2B-brightgreen.svg?style=for-the-badge" alt="Node.js 18+"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=for-the-badge" alt="E-E-A-T Verified"></a>
 </p>
@@ -20,14 +20,14 @@ Recent search engine updates (such as Google's March 2024 Core & Spam Updates) d
 Unconstrained LLM web generation defaults to the statistical mean:
 * 🚫 **AI Slop Outlines**: Generic headings like *"What is X?"*, *"Key Benefits of X"*, *"Why Choose Us"*, and *"Conclusion"*.
 * 🚫 **Fake E-E-A-T Laundering**: Hallucinating fake practitioner personas (*"Dr. Alex Miller"*) or synthetic metrics (*"increased efficiency by 30%"*) with no verified Knowledge Graph footprint.
-* 🚫 **Binary Checkmark Tables**: Low-information tables filled with generic `Yes / No` checkmarks.
+* 🚫 **Binary Checkmark Tables**: Low-information tables filled with generic `Yes / No` checkmarks that convey zero trade-offs.
 * 🚫 **Visual Homogeneity**: The ubiquitous purple/cyan gradient (`#8b5cf6 -> #ec4899`) on dark slate (`#0f172a`), rigid 3-card rows, and buttons without tactile feedback.
 
 ---
 
 ## 💡 The Solution: HumanCraft Engine
 
-`HumanCraft` acts as a **Taste, Layout Asymmetry, and Entity Reconciliation Engine** inside Antigravity:
+`HumanCraft` acts as a **Taste, Layout Asymmetry, and Entity Reconciliation Engine** inside Google Antigravity:
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -96,10 +96,10 @@ Unconstrained LLM web generation defaults to the statistical mean:
 
 ## ⚡ Token Optimization & Spend Limit Preservation
 
-To ensure your token usage remains as lean as before:
+To ensure your Antigravity token usage remains as lean as before:
 * **Compact Signatures**: Tool descriptions and parameter schemas are dense and concise, preventing system prompt inflation.
 * **Structured Payloads**: Tools return compact JSON summaries rather than lengthy prose.
-* **Input Bounds**: Imposes strict character limits (max 300 chars per heading, max 100KB per HTML document).
+* **Input Caps**: Imposes strict character limits (max 300 chars per heading, max 100KB per HTML document).
 
 ---
 
@@ -112,25 +112,56 @@ To ensure your token usage remains as lean as before:
 
 ---
 
-## 🚀 Installation & Antigravity Setup
+## 🚀 How to Add This MCP to Google Antigravity (Step-by-Step)
 
-### Step 1: Install & Build
+### Step 1: Clone and Build Locally
+Open your terminal and clone the repository:
+
 ```bash
-git clone https://github.com/aibuildinfra/humancraft-mcp.git
-cd humancraft-mcp
+git clone https://github.com/Shree-varshan-430/Humancraft-UI.git
+cd Humancraft-UI
 npm install
 npm run build
 ```
 
-### Step 2: Configure Antigravity
-Add the server configuration to your Antigravity MCP config file (`~/.gemini/config/mcp_config.json`):
+Verify that the build succeeded and `dist/index.js` exists.
 
+---
+
+### Step 2: Configure `mcp_config.json` in Antigravity
+
+Antigravity reads MCP server configurations from your global configuration directory:
+
+* **Windows**: `%USERPROFILE%\.gemini\config\mcp_config.json`  
+  *(e.g., `C:\Users\<YourUsername>\.gemini\config\mcp_config.json`)*
+* **macOS / Linux**: `~/.gemini/config/mcp_config.json`
+
+Open (or create) the `mcp_config.json` file in that location and add the `humancraft` server entry:
+
+#### Windows Example:
 ```json
 {
   "mcpServers": {
     "humancraft": {
       "command": "node",
-      "args": ["<PATH_TO_PROJECT>/dist/index.js"]
+      "args": [
+        "C:/path/to/Humancraft-UI/dist/index.js"
+      ]
+    }
+  }
+}
+```
+*(Tip: Replace `C:/path/to/Humancraft-UI` with the absolute path where you cloned this repository, using forward slashes `/`)*
+
+#### macOS / Linux Example:
+```json
+{
+  "mcpServers": {
+    "humancraft": {
+      "command": "node",
+      "args": [
+        "/Users/<username>/Humancraft-UI/dist/index.js"
+      ]
     }
   }
 }
@@ -138,11 +169,34 @@ Add the server configuration to your Antigravity MCP config file (`~/.gemini/con
 
 ---
 
-## 🧪 Testing
+### Step 3: Verify and Use in Antigravity
 
-Run automated security, ReDoS, and linter tests:
+1. **Restart or reload Antigravity**: Start a new chat session.
+2. **Inspect MCP Status**: In the Antigravity UI, navigate to **Additional Options (...) > MCP Servers** to verify that `humancraft` is connected and active.
+3. **Prompt Antigravity**: You can now ask Antigravity to build websites using human craft heuristics. For example:
+   * *"Design a landing page for our cloud telemetry engine. Use the HumanCraft MCP to harvest intake and ensure zero AI slop."*
+   * *"Validate my website headings with the HumanCraft heading linter."*
+   * *"Generate an empirical comparison table comparing ClickHouse vs Snowflake with schema markup."*
+
+---
+
+## 🧪 Automated Testing
+
+Run the automated test suite across all 6 tools and security guardrails:
 ```bash
 npm test
+```
+
+Expected output:
+```
+✔ build_comparison_matrix Tests (2/2 passed)
+✔ lint_design_anti_patterns Tests (2/2 passed)
+✔ audit_eeat_entity_graph Tests (2/2 passed)
+✔ validate_heading_intent Tests (2/2 passed)
+✔ harvest_client_intake Tests (2/2 passed)
+✔ Security & Hardening Tests (4/4 passed)
+
+Total: 14 passed | 0 failed | Time: ~800ms
 ```
 
 ---

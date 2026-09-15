@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aibuildinfra/humancraft-mcp.git"
+    "url": "git+https://github.com/Shree-varshan-430/Humancraft-UI.git"
   },
   "homepage": "https://aibuildinfra.com/",
   "author": {
@@ -24,7 +24,7 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aibuildinfra/humancraft-mcp/issues"
+    "url": "https://github.com/Shree-varshan-430/Humancraft-UI/issues"
   },
   "keywords": [
     "antigravity",
