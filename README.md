@@ -7,6 +7,7 @@
   <a href="https://github.com/Shree-varshan-430/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=for-the-badge" alt="E-E-A-T Verified"></a>
   <a href="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI"><img src="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI/badges/score.svg" alt="HumanCraft MCP server – quality and maintenance score on Glama"></a>
+  <a href="https://m8ven.ai/mcp/shree-varshan-430/humancraft-ui"><img src="https://m8ven.ai/badge/mcp/shree-varshan-430/humancraft-ui" alt="M8ven Score"></a>
 </p>
 
 <p align="center">
