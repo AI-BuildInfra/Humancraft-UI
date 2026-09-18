@@ -5,6 +5,7 @@
   <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Maintained%20By-AI%20Build%20Infra-blue.svg?style=for-the-badge" alt="Maintained by AI Build Infra"></a>
   <a href="https://github.com/Shree-varshan-430/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
+  <a href="https://github.com/Shree-varshan-430/Humancraft-UI/blob/main/PRIVACY.md"><img src="https://img.shields.io/badge/Privacy-Zero%20Data%20Collection-blue.svg?style=for-the-badge" alt="Privacy Policy"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=for-the-badge" alt="E-E-A-T Verified"></a>
   <a href="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI"><img src="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI/badges/score.svg" alt="HumanCraft MCP server – quality and maintenance score on Glama"></a>
   <a href="https://m8ven.ai/mcp/shree-varshan-430/humancraft-ui"><img src="https://m8ven.ai/badge/mcp/shree-varshan-430/humancraft-ui" alt="M8ven Score"></a>
@@ -195,15 +196,17 @@ npm test
 ✔ audit_eeat_entity_graph Tests (2/2 passed)
 ✔ validate_heading_intent Tests (2/2 passed)
 ✔ harvest_client_intake Tests (2/2 passed)
+✔ get_human_archetype Tests (2/2 passed)
 ✔ Security & Hardening Tests (4/4 passed)
 
-Total: 14 passed | 0 failed | Time: ~800ms
+Total: 16 passed | 0 failed | Time: ~800ms
 ```
 
 ---
 
-## 📄 License & Backlink Attribution
+## 📄 License & Privacy Policy
 
-Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.
+Distributed under the **MIT License**. See [`LICENSE`](./LICENSE) for details.  
+See [`PRIVACY.md`](./PRIVACY.md) for our strict Zero-Data-Collection privacy policy.
 
 Engineered with pride by **[AI Build Infra](https://aibuildinfra.com/)** — Building high-performance infrastructure for artificial intelligence.

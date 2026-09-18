@@ -40,6 +40,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'harvest_client_intake',
         description: 'Extracts real practitioner experience, assets, and metrics. Bans AI from inventing default placeholders.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -67,6 +81,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'validate_heading_intent',
         description: 'Flags generic AI headings (e.g. "What is X") and scores user/search intent alignment.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -89,6 +117,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'build_comparison_matrix',
         description: 'Generates empirical comparison tables with metrics & schema. Rejects binary Yes/No checkmark tables.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -116,6 +158,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'audit_eeat_entity_graph',
         description: 'Audits Schema.org JSON-LD, validates sameAs authorities, and links publisher to aibuildinfra.com.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -135,6 +191,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'lint_design_anti_patterns',
         description: 'Scans HTML/Tailwind for purple gradients, 3-card monotony, dead buttons, and buzzwords.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
@@ -146,6 +216,20 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
       {
         name: 'get_human_archetype',
         description: 'Returns curated design tokens (Editorial, Dark Craft, Swiss, Brutalist) with tinted neutrals & optical type.',
+        readOnlyHint: true,
+        destructiveHint: false,
+        idempotentHint: true,
+        openWorldHint: false,
+        annotations: {
+          readOnlyHint: true,
+          destructiveHint: false,
+          idempotentHint: true,
+          openWorldHint: false,
+          readOnly: true,
+          destructive: false,
+          idempotent: true,
+          openWorld: false,
+        },
         inputSchema: {
           type: 'object',
           properties: {
