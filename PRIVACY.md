@@ -1,4 +1,4 @@
-﻿# Privacy Policy
+# Privacy Policy
 
 **Effective Date:** September 18, 2026  
 **Project:** HumanCraft MCP Server (`@aibuildinfra/humancraft`)  
@@ -40,4 +40,4 @@ HumanCraft UI does not integrate with or transmit data to any third-party market
 ## 6. Contact & Inquiries
 For questions regarding this policy or the HumanCraft MCP Server, contact:
 * **Website**: [https://aibuildinfra.com/](https://aibuildinfra.com/)
-* **GitHub Issues**: [https://github.com/Shree-varshan-430/Humancraft-UI/issues](https://github.com/Shree-varshan-430/Humancraft-UI/issues)
+* **GitHub Issues**: [https://github.com/AI-BuildInfra/Humancraft-UI/issues](https://github.com/AI-BuildInfra/Humancraft-UI/issues)

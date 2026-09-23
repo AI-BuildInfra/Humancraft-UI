@@ -1,12 +1,12 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
-  "name": "io.github.Shree-varshan-430/humancraft-ui",
+  "name": "io.github.AI-BuildInfra/humancraft-ui",
   "title": "HumanCraft UI (Antigravity MCP)",
   "description": "Anti-slop, E-E-A-T & human web design MCP server for Antigravity, by AI Build Infra.",
   "version": "1.0.0",
   "websiteUrl": "https://aibuildinfra.com/",
   "repository": {
     "source": "github",
-    "url": "https://github.com/Shree-varshan-430/Humancraft-UI"
+    "url": "https://github.com/AI-BuildInfra/Humancraft-UI"
   }
 }
