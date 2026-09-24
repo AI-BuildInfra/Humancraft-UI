@@ -1,0 +1,52 @@
+name: Publish to MCP Registry
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write # Required for GitHub OIDC authentication with MCP Registry
+
+jobs:
+  validate-and-publish:
+    name: Validate and Publish to MCP Registry
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build TypeScript artifacts
+        run: npm run build
+
+      - name: Run automated test suite & schema validation
+        run: npm test
+
+      - name: Download official mcp-publisher CLI
+        run: |
+          RELEASE_URL=$(curl -s https://api.github.com/repos/modelcontextprotocol/registry/releases/latest | grep "browser_download_url.*mcp-publisher-linux-amd64" | cut -d '"' -f 4)
+          if [ -z "$RELEASE_URL" ]; then
+            echo "Falling back to direct release artifact..."
+            RELEASE_URL="https://github.com/modelcontextprotocol/registry/releases/latest/download/mcp-publisher-linux-amd64"
+          fi
+          echo "Downloading mcp-publisher from $RELEASE_URL"
+          curl -sL "$RELEASE_URL" -o /usr/local/bin/mcp-publisher
+          chmod +x /usr/local/bin/mcp-publisher
+
+      - name: Authenticate with MCP Registry via GitHub OIDC
+        run: mcp-publisher login github-oidc
+
+      - name: Publish server.json to MCP Registry
+        run: mcp-publisher publish
