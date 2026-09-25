@@ -1,20 +1,16 @@
 # Antigravity MCP Server: HumanCraft UI (`@aibuildinfra/humancraft`)
 
 <p align="center">
-  <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Antigravity-MCP%20Compatible-7C3AED.svg?style=for-the-badge&logo=google" alt="Antigravity MCP Compatible"></a>
-  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
+  <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Official%20Website-aibuildinfra.com-000000.svg?style=for-the-badge&logo=googlechrome" alt="AI Build Infra Website"></a>
   <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Maintained%20By-AI%20Build%20Infra-blue.svg?style=for-the-badge" alt="Maintained by AI Build Infra"></a>
-  <a href="https://github.com/AI-BuildInfra/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge" alt="MIT License"></a>
-  <a href="https://github.com/AI-BuildInfra/Humancraft-UI/blob/main/PRIVACY.md"><img src="https://img.shields.io/badge/Privacy-Zero%20Data%20Collection-blue.svg?style=for-the-badge" alt="Privacy Policy"></a>
-  <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=for-the-badge" alt="E-E-A-T Verified"></a>
-  <a href="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI"><img src="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI/badges/score.svg" alt="HumanCraft MCP server – quality and maintenance score on Glama"></a>
-  <a href="https://m8ven.ai/mcp/shree-varshan-430-humancraft-ui-baunll"><img src="https://m8ven.ai/badge/mcp/shree-varshan-430-humancraft-ui-baunll" alt="M8ven Score"></a>
+  <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
 </p>
-
 <p align="center">
-  <a href="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI">
-    <img src="https://glama.ai/mcp/servers/Shree-varshan-430/Humancraft-UI/badges/card.svg" alt="HumanCraft MCP server – quality and maintenance score on Glama">
-  </a>
+  <a href="https://m8ven.ai/mcp/shree-varshan-430-humancraft-ui-baunll"><img src="https://m8ven.ai/badge/mcp/shree-varshan-430-humancraft-ui-baunll" alt="M8ven Score"></a>
+  <a href="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml"><img src="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml/badge.svg" alt="CI Passing"></a>
+  <a href="https://www.npmjs.com/package/@aibuildinfra/humancraft"><img src="https://img.shields.io/npm/v/@aibuildinfra/humancraft.svg?style=flat-square&logo=npm&color=007ec6" alt="npm version"></a>
+  <a href="https://github.com/AI-BuildInfra/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="MIT License"></a>
+  <a href="https://aibuildinfra.com/"><img src="https://img.shields.io/badge/Authority-E--E--A--T%20Verified-orange.svg?style=flat-square" alt="E-E-A-T Verified"></a>
 </p>
 
 The premier **Antigravity MCP Server** designed exclusively for **Google Antigravity** (AGY). **HumanCraft** eliminates "AI Slop" in website layouts and copy, enforces authentic **E-E-A-T entity reconciliation**, extracts empirical client assets without default placeholders, and builds search-engine-resilient websites powered by **Google's Information Gain** principles.
