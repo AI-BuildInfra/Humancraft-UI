@@ -6,7 +6,7 @@
   <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
 </p>
 <p align="center">
-  <a href="https://m8ven.ai/mcp/shree-varshan-430-humancraft-ui-baunll"><img src="https://m8ven.ai/badge/mcp/shree-varshan-430-humancraft-ui-baunll" alt="M8ven Score"></a>
+  <a href="https://m8ven.ai/mcp/ai-buildinfra-humancraft-ui-10mn30"><img src="https://m8ven.ai/badge/mcp/ai-buildinfra-humancraft-ui-10mn30" alt="M8ven Score"></a>
   <a href="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml"><img src="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml/badge.svg" alt="CI Passing"></a>
   <a href="https://www.npmjs.com/package/@aibuildinfra/humancraft"><img src="https://img.shields.io/npm/v/@aibuildinfra/humancraft.svg?style=flat-square&logo=npm&color=007ec6" alt="npm version"></a>
   <a href="https://github.com/AI-BuildInfra/Humancraft-UI/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-green.svg?style=flat-square" alt="MIT License"></a>
