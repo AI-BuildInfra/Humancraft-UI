@@ -18,6 +18,8 @@
   "files": [
     "dist",
     "server.json",
+    "glama.json",
+    ".well-known",
     "README.md",
     "LICENSE",
     "PRIVACY.md"
