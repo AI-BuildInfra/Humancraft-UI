@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "humancraft": {
+      "command": "node",
+      "args": [
+        "C:/Users/SHREE VARSHAN/Documents/antigravity/intelligent-turing/dist/index.js"
+      ]
+    },
+    "proofgraph": {
+      "command": "node",
+      "args": [
+        "C:/Users/SHREE VARSHAN/Documents/antigravity/intelligent-turing/proofgraph/dist/index.js"
+      ]
+    }
+  }
+}

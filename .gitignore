@@ -27,3 +27,7 @@ Thumbs.db
 # Tools
 mcp-publisher*
 *.exe
+
+# Nested standalone repositories
+proofgraph/
+seo-mcp-server/
