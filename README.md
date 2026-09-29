@@ -6,6 +6,7 @@
   <a href="https://modelcontextprotocol.io/"><img src="https://img.shields.io/badge/Protocol-MCP%20v1.6-2563EB.svg?style=for-the-badge" alt="Model Context Protocol"></a>
 </p>
 <p align="center">
+  <a href="https://mcplookup.com/badge/go/3429a5d6-f88e-47c4-bdcb-85915ccae0b2/io.github.AI-BuildInfra/humancraft-ui"><img src="https://mcplookup.com/badge/io.github.AI-BuildInfra/humancraft-ui?embed=3429a5d6-f88e-47c4-bdcb-85915ccae0b2" alt="MCPLookup Trust Index"></a>
   <a href="https://m8ven.ai/mcp/ai-buildinfra-humancraft-ui-10mn30"><img src="https://m8ven.ai/badge/mcp/ai-buildinfra-humancraft-ui-10mn30" alt="M8ven Score"></a>
   <a href="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml"><img src="https://github.com/AI-BuildInfra/Humancraft-UI/actions/workflows/publish-mcp.yml/badge.svg" alt="CI Passing"></a>
   <a href="https://www.npmjs.com/package/@aibuildinfra/humancraft"><img src="https://img.shields.io/npm/v/@aibuildinfra/humancraft.svg?style=flat-square&logo=npm&color=007ec6" alt="npm version"></a>
