@@ -8,5 +8,16 @@
   "repository": {
     "source": "github",
     "url": "https://github.com/AI-BuildInfra/Humancraft-UI"
-  }
+  },
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@aibuildinfra/humancraft",
+      "version": "1.0.0",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
 }
